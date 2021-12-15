@@ -68,7 +68,8 @@
                                                             class="img-fluid" alt="{{ $product->product_banner }}">
                                                         <div class="mask-icon">
                                                             <ul>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                <li><a href="{{ route('shop_detail', $product->id) }}"
+                                                                        data-toggle="tooltip" data-placement="right"
                                                                         title="View"><i class="fas fa-eye"></i></a></li>
                                                             </ul>
                                                             <a class="cart" href="#">Add to Cart</a>

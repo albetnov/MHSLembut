@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->string('product_name');
             $table->text('product_desc');
             $table->string('product_banner');
+            $table->string('links_buy');
             $table->enum('status_produk', ['paling_laku', 'paling_disukai'])->nullable();
             $table->enum('status_masa', ['baru'])->nullable();
             $table->timestamps();

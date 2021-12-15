@@ -18,6 +18,7 @@ class Products extends Seeder
             'product_name' => 'Laundry',
             'product_desc' => 'Ini aplikasi laundry',
             'product_banner' => 'laundry.jpg',
+            'links_buy' => 'https://google.com',
             'status_produk' => 'paling_disukai',
             'status_masa' => null
         ]);
@@ -25,6 +26,7 @@ class Products extends Seeder
             'product_name' => 'E-Library',
             'product_desc' => 'Ini aplikasi e-library',
             'product_banner' => 'elibrary.jpg',
+            'links_buy' => 'https://google.com',
             'status_produk' => 'paling_disukai',
             'status_masa' => null
         ]);
@@ -32,6 +34,7 @@ class Products extends Seeder
             'product_name' => 'Absensi',
             'product_desc' => 'Ini aplikasi absensi',
             'product_banner' => 'absensi.jpg',
+            'links_buy' => 'https://google.com',
             'status_produk' => 'paling_disukai',
             'status_masa' => null
         ]);
@@ -39,6 +42,7 @@ class Products extends Seeder
             'product_name' => 'Hotel',
             'product_desc' => 'Ini aplikasi hotel',
             'product_banner' => 'hotel.jpg',
+            'links_buy' => 'https://google.com',
             'status_produk' => 'paling_laku',
             'status_masa' => 'baru'
         ]);
@@ -46,6 +50,7 @@ class Products extends Seeder
             'product_name' => 'SisInfoAlumni',
             'product_desc' => 'Ini aplikasi SisInfoAlumni',
             'product_banner' => 'sisinfo.jpg',
+            'links_buy' => 'https://google.com',
             'status_produk' => 'paling_laku',
             'status_masa' => 'baru'
         ]);

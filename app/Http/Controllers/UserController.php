@@ -38,6 +38,13 @@ class UserController extends Controller
         ]);
     }
 
+    public function shop_detail(Products $product)
+    {
+        return view('shop_detail', [
+            'product' => $product
+        ]);
+    }
+
     public function contact()
     {
         return view('contact');

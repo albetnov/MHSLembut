@@ -23,5 +23,6 @@ Route::get('/', [UserController::class, 'index'])->name('home');
 Route::get('/about', [UserController::class, 'about'])->name('about');
 Route::get('/shop', [UserController::class, 'shop'])->name('shop');
 Route::post('/shop/search', [UserController::class, 'shop_search'])->name('shop_search');
+Route::get('/shop/{product}', [UserController::class, 'shop_detail'])->name('shop_detail');
 Route::get('/contact', [UserController::class, 'contact'])->name('contact');
 Route::post('/contact', [UserController::class, 'send_contact'])->name('send_contact');
