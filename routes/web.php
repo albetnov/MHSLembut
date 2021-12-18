@@ -26,3 +26,5 @@ Route::post('/shop/search', [UserController::class, 'shop_search'])->name('shop_
 Route::get('/shop/{product}', [UserController::class, 'shop_detail'])->name('shop_detail');
 Route::get('/contact', [UserController::class, 'contact'])->name('contact');
 Route::post('/contact', [UserController::class, 'send_contact'])->name('send_contact');
+
+Route::view('/dashboard', 'admin.dashboard');
