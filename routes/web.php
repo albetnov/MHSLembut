@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\AuthController;
 use App\Models\Products;
 use Illuminate\Support\Facades\Route;
 
@@ -28,3 +29,5 @@ Route::get('/contact', [UserController::class, 'contact'])->name('contact');
 Route::post('/contact', [UserController::class, 'send_contact'])->name('send_contact');
 
 Route::view('/dashboard', 'admin.dashboard');
+Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::post('/loginact', [AuthController::class, 'authenticate'])->name('loginact');

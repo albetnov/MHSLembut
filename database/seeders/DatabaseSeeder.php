@@ -17,5 +17,6 @@ class DatabaseSeeder extends Seeder
         $this->call(ProductPhoto::class);
         $this->call(TeamListSeeder::class);
         $this->call(ContactSeeder::class);
+        $this->call(UserSeeder::class);
     }
 }
